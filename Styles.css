@@ -1,5 +1,8 @@
-
-h1
+body
+{
+  width: 100%;
+}
+h1,h3
 {
   font-family: 'Great Vibes', cursive;
   font-size: 5rem !important;
@@ -69,7 +72,7 @@ h1
 {
   text-align: center;
 }
-#AboutUs,#Founder,#Gallery,#Magazine, #Events, #IDA
+#AboutUs,#Founder,#Gallery,#Magazine, #Events, #IDA, #Moto
 {
 
   width: 100%;
@@ -111,8 +114,21 @@ h1
   {
     color:white;
   }
-
-
+#Moto
+{
+  background-color: #900C3F;
+  text-align: center;
+}
+#Moto li
+{
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+#Moto h1, #Moto li, #Moto h3
+{
+  color: white;
+}
 .box>.text
 {
   height: 100%;
